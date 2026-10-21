@@ -1,0 +1,14 @@
+# Cambiá la URL del sitemap por la de tu dominio.
+User-agent: *
+Disallow: /admin
+Disallow: /puerta
+Disallow: /checkout
+Disallow: /orden/
+Disallow: /entrada/
+Disallow: /mis-entradas
+Disallow: /cuenta
+Disallow: /comprobante/
+Disallow: /api/
+Disallow: /recuperar
+
+Sitemap: https://example.com/sitemap.xml

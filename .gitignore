@@ -1,0 +1,10 @@
+# Configuración y datos de cada instalación: nunca al repositorio.
+config.local.php
+datos/
+app/subidas/eventos/
+app/version.txt
+logs/
+*.sqlite
+*.sqlite-*
+*.db
+.DS_Store

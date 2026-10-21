@@ -1,0 +1,5 @@
+# Sólo imágenes: aunque alguien lograra subir un .php acá, no se ejecuta.
+Options -Indexes
+<FilesMatch "\.(php|phtml|phar|pl|py|cgi|sh)$">
+  Require all denied
+</FilesMatch>
